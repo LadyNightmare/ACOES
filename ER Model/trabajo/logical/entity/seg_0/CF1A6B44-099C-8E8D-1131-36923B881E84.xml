@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF1A6B44-099C-8E8D-1131-36923B881E84" name="DATOS ACADEMICOS">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:41:44 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4F73D0E3-6F91-934C-3842-AB5622856316">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:41:55 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="curso" id="DDFC7289-309C-0CEF-FA16-F2C9DD2C5104">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:42:12 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="centro" id="295AC8F9-638D-ACCD-CC2F-A4EA199A8B24">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:42:24 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota media" id="9FECB933-5FAA-7C66-C3B9-F0C9A040848B">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:42:46 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Identificador" id="07D6A9B9-812A-80D6-B96F-798505E871D8">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:10:02 UTC</createdTime>
+<generatorID>8428E066-45E6-361A-E17E-5FF6416EC681</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<referedAttribute>201FEDAF-7691-305E-97A7-0A4FFC9FF870</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo" id="852B667E-4DE0-CD87-2C67-BC9136D7820D">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:15:51 UTC</createdTime>
+<generatorID>591CCEAC-F59A-D14D-D6EF-D6E4C16348DD</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<referedAttribute>15B1337C-DAD2-948F-A085-CC628B9BA5CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="401D69E7-3BA8-73A1-E992-249C5193F892" name="Datos academicos PK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:41:59 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F73D0E3-6F91-934C-3842-AB5622856316</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

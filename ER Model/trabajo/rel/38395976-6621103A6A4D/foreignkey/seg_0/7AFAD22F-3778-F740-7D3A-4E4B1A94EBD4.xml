@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7AFAD22F-3778-F740-7D3A-4E4B1A94EBD4" containerWithKeyObject="658C9BDD-410E-EEC4-EDD9-8D6CFD1B9271" localFKIndex="9CFCD0D5-CC19-25E2-8E0D-13DD1CE9292B" name="Ingresa/Recibe_INGRESOS/EGRESOS_FK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>E4E28495-A535-E200-CB6F-72EBF86ED119</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<referredTableLongName>INGRESOS/EGRESOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61A49D62-B68C-25E5-BFE9-3BD32EE5ABB0</referredTableID>
+<keyObject>59AD684E-9184-3A7D-FEFD-10338F4F6563</keyObject>
+<referredKeyID>59AD684E-9184-3A7D-FEFD-10338F4F6563</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

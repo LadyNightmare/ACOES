@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ingresa/Recibe" directorySegmentName="seg_0" id="E4E28495-A535-E200-CB6F-72EBF86ED119">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:19:00 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Ingresan</nameOnSource>
+<nameOnTarget>Recibe</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FD24B450-DD4D-CF4C-99CA-172FBAB17B8D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE974D31-10DE-51FC-C9C1-69566753C293</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

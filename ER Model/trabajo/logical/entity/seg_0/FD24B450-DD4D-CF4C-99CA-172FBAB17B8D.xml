@@ -1,0 +1,255 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD24B450-DD4D-CF4C-99CA-172FBAB17B8D" name="SOCIOS">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:47:09 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="B0D2BEA3-F8F7-5DB1-E105-E403586E9913">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:58:18 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIF" id="BC5F4DBE-40EC-89EC-EFDC-8FE86C3F5CA6">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:58:51 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="9B893927-7624-F97A-243C-BCDCB4CB2E95">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:00:03 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="5978E2ED-1E85-468E-C77E-6D026369FFD2">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:00:18 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="40786C1B-84A8-4763-9A32-D354ADB9AB64">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:01:53 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Provincia" id="24D4EAE7-EC3C-EBAD-559A-2B56902FB635">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:02:35 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo Postal" id="377A6E3F-C0FA-AA80-AF4E-DE805E07F2C1">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:02:51 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="80E5208F-1FA4-593A-218E-4648A32E6A9C">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:03:08 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono fijo" id="AA36F3F3-241C-8827-FD0E-D500AD688B40">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:04:00 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono movil" id="F8CF4138-7689-6999-06C8-3A8D88AAE953">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:04:16 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="7F235441-000D-4222-524A-A33DDD1A26D5">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:04:32 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Relacion" id="3A262768-C261-C789-EFBF-42F67ECAA409">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:05:17 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sector" id="CBB50978-541E-83FF-ED5A-889FC0853131">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:05:32 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Certificado" id="0A2DDA6F-AD33-9AAD-843C-31CB25526BD0">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:05:49 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de alta" id="835DC55B-79E6-0534-FC76-69FACFCDADE3">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:06:07 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de baja" id="6C65DE6B-F38E-63A1-A3CE-934EAD76D6B0">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:06:22 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Observaciones" id="F96A6C4D-6C4D-341D-B942-464DEC784A9B">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:06:40 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="208BC8C8-C580-4A19-5FA4-940FF23D0DB3" name="Socios PK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:58:49 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0D2BEA3-F8F7-5DB1-E105-E403586E9913</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6EC577B9-9EFF-4435-E46D-7DA618178526" name="Key_2">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:59:26 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<newElementsIDs>BC5F4DBE-40EC-89EC-EFDC-8FE86C3F5CA6,7F235441-000D-4222-524A-A33DDD1A26D5,AA36F3F3-241C-8827-FD0E-D500AD688B40,F8CF4138-7689-6999-06C8-3A8D88AAE953</newElementsIDs>
+<usedAttributes>
+<attributeRef>BC5F4DBE-40EC-89EC-EFDC-8FE86C3F5CA6</attributeRef>
+<attributeRef>7F235441-000D-4222-524A-A33DDD1A26D5</attributeRef>
+<attributeRef>AA36F3F3-241C-8827-FD0E-D500AD688B40</attributeRef>
+<attributeRef>F8CF4138-7689-6999-06C8-3A8D88AAE953</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

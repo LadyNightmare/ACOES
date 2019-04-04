@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Apadrinamiento" directorySegmentName="seg_0" id="D7877D29-CA82-0988-858A-DB66F95B7433">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:20:21 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<sourcePk>208BC8C8-C580-4A19-5FA4-940FF23D0DB3</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Es apadrinado</nameOnSource>
+<nameOnTarget>Apradina</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD24B450-DD4D-CF4C-99CA-172FBAB17B8D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>927B99F4-A44F-0BC0-CA31-4547354EABE4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14135E51-AE7D-7A00-14ED-32A7725897BD" name="PERSONAL_ASOCIACION">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>9B8CE26C-B184-FD38-553C-7EB2DC6789F6</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Identificador" id="C9C068CF-D604-8E85-13CA-49848C5688F7">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>201FEDAF-7691-305E-97A7-0A4FFC9FF870</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="3C2F97BC-544A-8468-E2A2-FB1F61A4E460">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>4294A592-CB30-998C-53E7-5A6CC37C2604</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="003513FC-BD62-E99C-F824-4B7610E2DE12">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>DCB0FD8B-5C94-E879-405F-F9F8719B7BFE</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_nacimiento" id="B613A03C-CC24-6097-B93B-3DB229B13DF2">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>7FA204E6-274A-CDCB-F9CC-E3B73D44265E</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_entrada_acoes" id="2DB93AD3-4289-6106-1E5C-8DDC7CFC38CE">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>33C0BBCF-C07E-77CE-5B83-B57F8966E3B3</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargp" id="E056429E-73E7-966E-A854-24404089B402">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>6165968F-159F-7FA1-7B3C-B08FE65BB676</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto" id="EEB937FF-8963-7C49-8E1E-B44DDF4AF594">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>22701AF6-726C-48D1-53EF-D916622F15D3</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Experencia" id="EAFF15F0-8756-D02A-C1C7-9B03F40E1653">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>BE563E72-FE78-D0F0-D361-666EFFB00D69</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="A54EAEFF-25CA-772F-72DC-CA1A216945DB">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>06EC241C-9D78-5DE1-34A2-3B1F6E4FCA36</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCEF25FE-191F-51C0-668E-E231A22FC28B" name="PERSONAL_ASOCIACION_PK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>8873B890-C557-D370-2529-31A35ABD4F2D</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9C068CF-D604-8E85-13CA-49848C5688F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

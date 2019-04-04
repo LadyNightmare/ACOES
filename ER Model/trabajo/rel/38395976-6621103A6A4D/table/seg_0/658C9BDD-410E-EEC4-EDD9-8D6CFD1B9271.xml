@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="658C9BDD-410E-EEC4-EDD9-8D6CFD1B9271" name="Ingresa/Recibe">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SOCIOS_Id" id="16584E4F-6008-8234-EF2F-C0DE084F3689">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94E01416-F724-A4C4-92B9-65A10EBE1814" referredColumn="32AE79BA-7A32-3BAD-E721-BFA10E250342"/>
+</associations>
+</Column>
+<Column name="INGRESOS/EGRESOS_Codigo" id="67EA930E-1458-2CC8-F5FA-B71B6C20DE26">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AFAD22F-3778-F740-7D3A-4E4B1A94EBD4" referredColumn="97BBEC10-8FE0-29F2-980C-BF35E6266018"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D30D26DA-C5A8-F42C-0328-4E245AC07302" name="Ingresa/Recibe_PK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16584E4F-6008-8234-EF2F-C0DE084F3689"/>
+<colUsage columnID="67EA930E-1458-2CC8-F5FA-B71B6C20DE26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C0521D4-E343-8043-91C3-4BFE66230B2D" name="Ingresa/Recibe_SOCIOS_FK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>E4E28495-A535-E200-CB6F-72EBF86ED119</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16584E4F-6008-8234-EF2F-C0DE084F3689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CFCD0D5-CC19-25E2-8E0D-13DD1CE9292B" name="Ingresa/Recibe_INGRESOS/EGRESOS_FK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>E4E28495-A535-E200-CB6F-72EBF86ED119</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67EA930E-1458-2CC8-F5FA-B71B6C20DE26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

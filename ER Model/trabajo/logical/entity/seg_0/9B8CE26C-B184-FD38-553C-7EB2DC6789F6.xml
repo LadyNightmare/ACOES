@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B8CE26C-B184-FD38-553C-7EB2DC6789F6" name="PERSONAL ASOCIACION ">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:11:49 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Identificador" id="201FEDAF-7691-305E-97A7-0A4FFC9FF870">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:14:53 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="4294A592-CB30-998C-53E7-5A6CC37C2604">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:15:11 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="DCB0FD8B-5C94-E879-405F-F9F8719B7BFE">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:16:00 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_nacimiento" id="7FA204E6-274A-CDCB-F9CC-E3B73D44265E">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:16:38 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_entrada_acoes" id="33C0BBCF-C07E-77CE-5B83-B57F8966E3B3">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:16:59 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cargp" id="6165968F-159F-7FA1-7B3C-B08FE65BB676">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:18:25 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Foto" id="22701AF6-726C-48D1-53EF-D916622F15D3">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:18:37 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Experencia" id="BE563E72-FE78-D0F0-D361-666EFFB00D69">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:18:51 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion " id="06EC241C-9D78-5DE1-34A2-3B1F6E4FCA36">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:19:04 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8873B890-C557-D370-2529-31A35ABD4F2D" name="Personal Asociacion PK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 16:15:02 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<engineerTo>
+<item key="38395976-97C8-940C-42BA-6621103A6A4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>201FEDAF-7691-305E-97A7-0A4FFC9FF870</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

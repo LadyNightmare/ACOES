@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCD69C5F-9F23-DF88-2B2A-339DF52D5924" name="DATOS_ACADEMICOS">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>CF1A6B44-099C-8E8D-1131-36923B881E84</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BB06AC84-49CA-C834-2F2A-D494D28F9D58">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>4F73D0E3-6F91-934C-3842-AB5622856316</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso" id="CA4DCD64-F114-420B-CE97-98F02F96A1D6">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>DDFC7289-309C-0CEF-FA16-F2C9DD2C5104</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="centro" id="01B4897F-B7AD-29AA-1307-1BB5436ACEE1">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>295AC8F9-638D-ACCD-CC2F-A4EA199A8B24</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_media" id="9D8A3D01-F77A-848A-FF29-96954A36A440">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>9FECB933-5FAA-7C66-C3B9-F0C9A040848B</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONAL_ASOCIACION_Identificador" id="30052C46-A22A-8E0A-C46D-542B4042B359">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>07D6A9B9-812A-80D6-B96F-798505E871D8</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C4369E9-5DC0-9287-D800-4A43F4DD205E" referredColumn="C9C068CF-D604-8E85-13CA-49848C5688F7"/>
+</associations>
+</Column>
+<Column name="BENEFICIARIO_Codigo" id="241AF23B-E8CB-20C0-F58C-69051C88C0D0">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>852B667E-4DE0-CD87-2C67-BC9136D7820D</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20D8A275-BD70-6A6E-55F8-94FF3EF90460" referredColumn="2EBBAE3C-E7D6-4839-5B56-92A1A56BDF39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23AEFF25-8A48-A18A-4D26-49DBEA12CA64" name="DATOS_ACADEMICOS_PK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>401D69E7-3BA8-73A1-E992-249C5193F892</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB06AC84-49CA-C834-2F2A-D494D28F9D58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A97D58A8-B8BB-A34B-0016-20EEADA7D8CC" name="DATOS_ACADEMICOS__IDX">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<ownerDesignName>trabajo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>591CCEAC-F59A-D14D-D6EF-D6E4C16348DD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="241AF23B-E8CB-20C0-F58C-69051C88C0D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67D49BF6-CC69-3226-3F4C-27CDBC504452" name="DATOS_ACADEMICOS_PERSONAL_ASOCIACION_FK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>8428E066-45E6-361A-E17E-5FF6416EC681</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30052C46-A22A-8E0A-C46D-542B4042B359"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3E1AB6B-ADDE-EF5A-610D-7843A2763FD4" name="DATOS_ACADEMICOS_BENEFICIARIO_FK">
+<createdBy>sofiamerino</createdBy>
+<createdTime>2019-04-04 17:21:56 UTC</createdTime>
+<generatorID>591CCEAC-F59A-D14D-D6EF-D6E4C16348DD</generatorID>
+<ownerDesignName>trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="241AF23B-E8CB-20C0-F58C-69051C88C0D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
