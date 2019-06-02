@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<ui:composition template="/WEB-INF/templates/plantilla.xhtml" 
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <ui:define name="title">Datos Personales</ui:define> 
+    <ui:define name="content">
+    <div class="container">
+            <h:form>
+                <h:panelGrid columns="2" cellpadding="5">
+           
+                     <h:outputLabel value="Nombre de Usuario: "/>
+                     <h:outputLabel value="#{controlAutorizacion.getUsuario().username}"/>
+                     <h:outputLabel value="Nombre: "/>
+                     <h:outputLabel value="#{controlAutorizacion.getUsuario().nombre}"/>
+                     <h:outputLabel value="Apellidos: "/>
+                     <h:outputLabel value="#{controlAutorizacion.getUsuario().apellidos}"/>
+                     <h:outputLabel value="Fecha de Nacimiento: "/>
+                     <h:outputLabel value="#{controlAutorizacion.getUsuario().fechaNacimiento}"/>
+                     <h:outputLabel value="Fecha de alta: "/>
+                     <h:outputLabel value="#{controlAutorizacion.getUsuario().fechaAlta}"/>
+                     <h:outputLabel value="Telefono: "/>
+                     <h:outputLabel value="#{controlAutorizacion.getUsuario().telefono}"/>
+                     <h:outputLabel value="NIF: "/>
+                     <h:outputLabel value="#{controlAutorizacion.getUsuario().NIF}"/>
+                     <h:outputLabel value="Email: "/>
+                     <h:outputLabel value="#{controlAutorizacion.getUsuario().email}"/>
+                     
+                      <input type="button" value="Modificar datos" OnClick="location.href='modificarDatosUsuario.xhtml'"></input><br/>
+                     
+                 </h:panelGrid>
+                </h:form>
+            </div>
+        </ui:define>
+</ui:composition>

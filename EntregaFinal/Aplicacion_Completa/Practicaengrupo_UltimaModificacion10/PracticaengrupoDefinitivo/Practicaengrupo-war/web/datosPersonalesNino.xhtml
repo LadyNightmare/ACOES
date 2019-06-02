@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<ui:composition template="/WEB-INF/templates/plantilla.xhtml" 
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <ui:define name="title">Datos Personales</ui:define> 
+    <ui:define name="content">
+    <div class="container">
+            <h:form>
+                <h:panelGrid columns="2" cellpadding="5">
+                  
+                   <h:outputLabel value="Nif: "/>
+                   <h:outputLabel value="#{nino.beneficiario.nif}"/>
+                   <h:outputLabel value="Nombre: "/>
+                   <h:outputLabel value="#{nino.beneficiario.nombre}"/>
+                   <h:outputLabel value="Apellidos: "/>
+                   <h:outputLabel value="#{nino.beneficiario.apellidos}"/>
+                   <h:outputLabel value="Sexo: "/>
+                   <h:outputLabel value="#{nino.beneficiario.sexo}"/>
+                   <h:outputLabel value="Comunidad de procedencia: "/>
+                   <h:outputLabel value="#{nino.beneficiario.comunidadProcedencia}"/>
+                   <h:outputLabel value="Comunidad en la que vive: "/>
+                   <h:outputLabel value="#{nino.beneficiario.comunidadResidencia}"/>
+                   <h:outputLabel value="Cuenta de ingresos: "/>
+                   <h:outputLabel value="#{nino.beneficiario.numIngreso}"/>
+                   <h:outputLabel value="Grado del Curso: "/>
+                   <h:outputLabel value="#{nino.beneficiario.grado}"/>
+                   <h:outputLabel value="Estado: "/>
+                   <h:outputLabel value="#{nino.beneficiario.estado}"/>
+   
+                 </h:panelGrid>
+                
+                </h:form>
+            </div>
+        </ui:define>
+</ui:composition>

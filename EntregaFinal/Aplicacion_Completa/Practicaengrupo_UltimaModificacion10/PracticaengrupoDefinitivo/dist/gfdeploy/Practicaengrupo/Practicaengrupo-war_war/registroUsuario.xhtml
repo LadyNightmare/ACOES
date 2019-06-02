@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<ui:composition template="/WEB-INF/templates/plantilla.xhtml" 
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+    
+    <ui:define name="title">Registro</ui:define> 
+    <ui:define name="content">
+        <h:form id="registro">
+            <h:panelGrid columns="1" >
+                <h:outputText value="NIF:"/>
+                <h:inputText id="nif" value="#{registro.usuario.NIF}" required="true"/>
+                <h:message for="nif"/>
+                <h:outputText value="Nombre:"/>
+                <h:inputText id="nombre" value="#{registro.usuario.nombre}" required="true"/>
+                <h:message for="nombre"/>
+                <h:outputText value="Apellidos:"/>
+                <h:inputText id="apellido" value="#{registro.usuario.apellidos}" required="true"/>
+                <h:message for="apellido"/>
+                <h:outputText value="Fecha_Nacimiento => yyyy/MM/dd  "/>
+                <h:inputText id="fechanacimiento" value="#{registro.usuario.fechaNacimiento}" required="true"/>
+                <h:message for="fechanacimiento"/>
+                <h:outputText value="Telefono: "/>
+                <h:inputText id="telefono" value="#{registro.usuario.telefono}" required="true"/>
+                <h:message for="telefono"/>
+                <h:outputText value="Email: "/>
+                <td><h:inputText id="E-MAIL" value="#{registro.usuario.email}" required="true"  style="padding: 2px 0px;
+                            box-sizing: border-box; text-align: left; font-size: 100%px;" validatorMessage="Compruebe que ha introducido un e-mail correcto">
+                                    <f:validateRegex pattern=".+@.+"/>
+                                    </h:inputText>
+                </td>
+                <h:message for="email"/>
+                <h:outputText value="Usuario:"/>
+                <h:inputText id="usuario" value="#{registro.usuario.username}" required="true"/>
+                <h:message for="usuario"/>
+                <h:outputText value="Contraseña:"/>
+                <h:inputSecret id="password" value="#{registro.usuario.contrasenia}" required="true"/>
+                <h:message for="password"/>
+                <h:outputText value="Repita contraseña:"/>
+                <h:inputSecret id="repass" value="#{registro.repass}" required="true"/>
+                <h:message for="repass"/>
+                <h:outputLabel value="Rol: "/>
+                <h:selectOneMenu value="#{registro.usuario.rol}" required="true">
+                    <f:selectItem itemLabel="Trabajador" itemValue="TRABAJADOR" />
+                    <f:selectItem itemLabel="Socios" itemValue="SOCIO" />
+                </h:selectOneMenu>
+                
+                <h:commandButton value="Crear usuario" action="#{registro.registrarUsuario()}"/>
+                <h:link outcome="index.xhtml">Volver a la página de login</h:link>
+            </h:panelGrid>
+            <h:messages/>
+                    
+        </h:form>
+  
+    </ui:define> 
+</ui:composition>

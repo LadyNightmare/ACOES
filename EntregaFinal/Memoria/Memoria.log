@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  1 JUN 2019 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  1 JUN 2019 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,7 +697,7 @@ been already used, duplicate ignored
                    \relax 
 l.39 \newpage
               [1]
-<images/entidades.jpg, id=45, 776.9025pt x 549.05125pt>
+<images/entidades.jpg, id=50, 776.9025pt x 549.05125pt>
 File: images/entidades.jpg Graphic file (type jpg)
 <use images/entidades.jpg>
 Package pdftex.def Info: images/entidades.jpg  used on input line 48.
@@ -713,39 +713,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--74
  []
 
 [3]
-<images/tree.png, id=54, 325.215pt x 182.6825pt>
+<images/tree.png, id=59, 325.215pt x 182.6825pt>
 File: images/tree.png Graphic file (type png)
 <use images/tree.png>
 Package pdftex.def Info: images/tree.png  used on input line 80.
 (pdftex.def)             Requested size: 162.6071pt x 91.34102pt.
-<images/beneficiario.jpg, id=56, 320.16386pt x 398.65065pt>
+<images/beneficiario.jpg, id=61, 320.16386pt x 398.65065pt>
 File: images/beneficiario.jpg Graphic file (type jpg)
 <use images/beneficiario.jpg>
 Package pdftex.def Info: images/beneficiario.jpg  used on input line 87.
 (pdftex.def)             Requested size: 160.08153pt x 199.32483pt.
-<images/relaciones.jpg, id=57, 262.6587pt x 237.01451pt>
+<images/relaciones.jpg, id=62, 262.6587pt x 237.01451pt>
 File: images/relaciones.jpg Graphic file (type jpg)
 <use images/relaciones.jpg>
 Package pdftex.def Info: images/relaciones.jpg  used on input line 96.
 (pdftex.def)             Requested size: 131.32903pt x 118.50696pt.
  [4 <./images/tree.png> <./images/beneficiario.jpg>]
-<images/historial.jpg, id=63, 305.39903pt x 282.86322pt>
+<images/historial.jpg, id=68, 305.39903pt x 282.86322pt>
 File: images/historial.jpg Graphic file (type jpg)
 <use images/historial.jpg>
 Package pdftex.def Info: images/historial.jpg  used on input line 104.
 (pdftex.def)             Requested size: 152.69914pt x 141.43126pt.
-<images/ingresos.jpg, id=64, 303.84483pt x 362.90419pt>
+<images/ingresos.jpg, id=69, 303.84483pt x 362.90419pt>
 File: images/ingresos.jpg Graphic file (type jpg)
 <use images/ingresos.jpg>
 Package pdftex.def Info: images/ingresos.jpg  used on input line 110.
 (pdftex.def)             Requested size: 106.34727pt x 127.01836pt.
-<images/usuarios.jpg, id=65, 327.15775pt x 416.52386pt>
+<images/usuarios.jpg, id=70, 327.15775pt x 416.52386pt>
 File: images/usuarios.jpg Graphic file (type jpg)
 <use images/usuarios.jpg>
 Package pdftex.def Info: images/usuarios.jpg  used on input line 116.
 (pdftex.def)             Requested size: 163.57846pt x 208.26141pt.
  [5 <./images/relaciones.jpg> <./images/historial.jpg> <./images/ingresos.jpg>]
-<capturas/INDEX.PNG, id=71, 899.61093pt x 646.66594pt>
+<capturas/INDEX.PNG, id=76, 899.61093pt x 646.66594pt>
 File: capturas/INDEX.PNG Graphic file (type png)
 <use capturas/INDEX.PNG>
 Package pdftex.def Info: capturas/INDEX.PNG  used on input line 128.
@@ -756,7 +756,7 @@ Overfull \hbox (104.80437pt too wide) in paragraph at lines 128--129
  []
 
 [6 <./images/usuarios.jpg>]
-<capturas/REGISTRO.PNG, id=76, 896.59969pt x 640.64343pt>
+<capturas/REGISTRO.PNG, id=81, 896.59969pt x 640.64343pt>
 File: capturas/REGISTRO.PNG Graphic file (type png)
 <use capturas/REGISTRO.PNG>
 Package pdftex.def Info: capturas/REGISTRO.PNG  used on input line 134.
@@ -767,7 +767,7 @@ Overfull \hbox (103.29875pt too wide) in paragraph at lines 134--135
  []
 
 [7 <./capturas/INDEX.PNG>]
-<capturas/REGISTROCONEXITO.PNG, id=82, 896.59969pt x 639.89063pt>
+<capturas/REGISTROCONEXITO.PNG, id=87, 896.59969pt x 639.89063pt>
 File: capturas/REGISTROCONEXITO.PNG Graphic file (type png)
 <use capturas/REGISTROCONEXITO.PNG>
 Package pdftex.def Info: capturas/REGISTROCONEXITO.PNG  used on input line 140.
@@ -779,7 +779,7 @@ Overfull \hbox (103.29875pt too wide) in paragraph at lines 140--141
  []
 
 [8 <./capturas/REGISTRO.PNG>]
-<capturas/INICIOTRABAJADORES.PNG, id=88, 897.3525pt x 638.385pt>
+<capturas/INICIOTRABAJADORES.PNG, id=93, 897.3525pt x 638.385pt>
 File: capturas/INICIOTRABAJADORES.PNG Graphic file (type png)
 <use capturas/INICIOTRABAJADORES.PNG>
 Package pdftex.def Info: capturas/INICIOTRABAJADORES.PNG  used on input line 14
@@ -791,7 +791,7 @@ Overfull \hbox (103.67514pt too wide) in paragraph at lines 146--147
  []
 
 [9 <./capturas/REGISTROCONEXITO.PNG>]
-<capturas/INICIOSOCIOS.PNG, id=94, 895.84688pt x 633.11531pt>
+<capturas/INICIOSOCIOS.PNG, id=99, 895.84688pt x 633.11531pt>
 File: capturas/INICIOSOCIOS.PNG Graphic file (type png)
 <use capturas/INICIOSOCIOS.PNG>
 Package pdftex.def Info: capturas/INICIOSOCIOS.PNG  used on input line 152.
@@ -802,7 +802,7 @@ Overfull \hbox (102.92235pt too wide) in paragraph at lines 152--153
  []
 
 [10 <./capturas/INICIOTRABAJADORES.PNG>]
-<capturas/ANADIRALUMNOS.PNG, id=100, 898.85812pt x 639.13782pt>
+<capturas/ANADIRALUMNOS.PNG, id=105, 898.85812pt x 639.13782pt>
 File: capturas/ANADIRALUMNOS.PNG Graphic file (type png)
 <use capturas/ANADIRALUMNOS.PNG>
 Package pdftex.def Info: capturas/ANADIRALUMNOS.PNG  used on input line 158.
@@ -813,7 +813,7 @@ Overfull \hbox (104.42796pt too wide) in paragraph at lines 158--159
  []
 
 [11 <./capturas/INICIOSOCIOS.PNG>]
-<capturas/ANADIRCALIFICACIONALUMNOS.PNG, id=107, 895.84688pt x 641.39626pt>
+<capturas/ANADIRCALIFICACIONALUMNOS.PNG, id=112, 895.84688pt x 641.39626pt>
 File: capturas/ANADIRCALIFICACIONALUMNOS.PNG Graphic file (type png)
 <use capturas/ANADIRCALIFICACIONALUMNOS.PNG>
 Package pdftex.def Info: capturas/ANADIRCALIFICACIONALUMNOS.PNG  used on input 
@@ -825,7 +825,7 @@ Overfull \hbox (102.92235pt too wide) in paragraph at lines 162--163
  []
 
 [12 <./capturas/ANADIRALUMNOS.PNG>]
-<capturas/COSASDELOSALUMNOS.PNG, id=113, 898.85812pt x 642.14906pt>
+<capturas/COSASDELOSALUMNOS.PNG, id=118, 898.85812pt x 642.14906pt>
 File: capturas/COSASDELOSALUMNOS.PNG Graphic file (type png)
 <use capturas/COSASDELOSALUMNOS.PNG>
 Package pdftex.def Info: capturas/COSASDELOSALUMNOS.PNG  used on input line 166
@@ -854,7 +854,7 @@ l.170 ...IFICACIONESDESDETRABAJADORDELOSNINOS.PNG}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<capturas/APADRINADOS.PNG, id=119, 898.10532pt x 639.13782pt>
+<capturas/APADRINADOS.PNG, id=124, 898.10532pt x 639.13782pt>
 File: capturas/APADRINADOS.PNG Graphic file (type png)
 <use capturas/APADRINADOS.PNG>
 Package pdftex.def Info: capturas/APADRINADOS.PNG  used on input line 176.
@@ -865,7 +865,7 @@ Overfull \hbox (104.05156pt too wide) in paragraph at lines 176--177
  []
 
 [14 <./capturas/COSASDELOSALUMNOS.PNG>]
-<capturas/NINOAPADRINADO.PNG, id=126, 897.3525pt x 639.89063pt>
+<capturas/NINOAPADRINADO.PNG, id=131, 897.3525pt x 639.89063pt>
 File: capturas/NINOAPADRINADO.PNG Graphic file (type png)
 <use capturas/NINOAPADRINADO.PNG>
 Package pdftex.def Info: capturas/NINOAPADRINADO.PNG  used on input line 180.
@@ -876,7 +876,7 @@ Overfull \hbox (103.67514pt too wide) in paragraph at lines 180--181
  []
 
 [15 <./capturas/APADRINADOS.PNG>]
-<capturas/VERAPADRINADOS.PNG, id=132, 902.6222pt x 641.39626pt>
+<capturas/VERAPADRINADOS.PNG, id=137, 902.6222pt x 641.39626pt>
 File: capturas/VERAPADRINADOS.PNG Graphic file (type png)
 <use capturas/VERAPADRINADOS.PNG>
 Package pdftex.def Info: capturas/VERAPADRINADOS.PNG  used on input line 184.
@@ -887,7 +887,7 @@ Overfull \hbox (106.31pt too wide) in paragraph at lines 184--185
  []
 
 [16 <./capturas/NINOAPADRINADO.PNG>]
-<capturas/ANADIRDONACION.PNG, id=138, 895.84688pt x 638.385pt>
+<capturas/ANADIRDONACION.PNG, id=143, 895.84688pt x 638.385pt>
 File: capturas/ANADIRDONACION.PNG Graphic file (type png)
 <use capturas/ANADIRDONACION.PNG>
 Package pdftex.def Info: capturas/ANADIRDONACION.PNG  used on input line 188.
@@ -898,7 +898,7 @@ Overfull \hbox (102.92235pt too wide) in paragraph at lines 188--189
  []
 
 [17 <./capturas/VERAPADRINADOS.PNG>]
-<capturas/DONACIONES.PNG, id=145, 902.6222pt x 639.13782pt>
+<capturas/DONACIONES.PNG, id=150, 902.6222pt x 639.13782pt>
 File: capturas/DONACIONES.PNG Graphic file (type png)
 <use capturas/DONACIONES.PNG>
 Package pdftex.def Info: capturas/DONACIONES.PNG  used on input line 192.
@@ -909,7 +909,7 @@ Overfull \hbox (106.31pt too wide) in paragraph at lines 192--193
  []
 
 [18 <./capturas/ANADIRDONACION.PNG>]
-<capturas/VERDATOSPERSONALES.PNG, id=151, 898.10532pt x 639.89063pt>
+<capturas/VERDATOSPERSONALES.PNG, id=156, 898.10532pt x 639.89063pt>
 File: capturas/VERDATOSPERSONALES.PNG Graphic file (type png)
 <use capturas/VERDATOSPERSONALES.PNG>
 Package pdftex.def Info: capturas/VERDATOSPERSONALES.PNG  used on input line 19
@@ -921,7 +921,7 @@ Overfull \hbox (104.05156pt too wide) in paragraph at lines 198--199
  []
 
 [19 <./capturas/DONACIONES.PNG>]
-<capturas/MODIFICARDATOSPERSONALES.PNG, id=157, 897.3525pt x 639.89063pt>
+<capturas/MODIFICARDATOSPERSONALES.PNG, id=162, 897.3525pt x 639.89063pt>
 File: capturas/MODIFICARDATOSPERSONALES.PNG Graphic file (type png)
 <use capturas/MODIFICARDATOSPERSONALES.PNG>
 Package pdftex.def Info: capturas/MODIFICARDATOSPERSONALES.PNG  used on input l
@@ -1036,15 +1036,9 @@ LaTeX Info: Redefining \% on input line 23.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+Package rerunfilecheck Info: File `Memoria.out' has not changed.
+(rerunfilecheck)             Checksum: E9C01F3F3431D56F31B974FD5B0EE24C;327.
 
-
-Package rerunfilecheck Warning: File `Memoria.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Memoria.out':
-(rerunfilecheck)             Before: 378DE727455994EAF14D46403A6F1600;283
-(rerunfilecheck)             After:  E9C01F3F3431D56F31B974FD5B0EE24C;327.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.12pt have occurred.
@@ -1052,10 +1046,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
  ) 
 Here is how much of TeX's memory you used:
- 6865 strings out of 492982
- 98014 string characters out of 6134895
+ 6866 strings out of 492982
+ 98025 string characters out of 6134895
  193990 words of memory out of 5000000
- 10318 multiletter control sequences out of 15000+600000
+ 10319 multiletter control sequences out of 15000+600000
  8669 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,6n,35p,689b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1066,10 +1060,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Memoria.pdf (25 pages, 3679217 bytes).
+Output written on Memoria.pdf (25 pages, 3680071 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
+ 218 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  30 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 

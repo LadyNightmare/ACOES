@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<ui:composition template="/WEB-INF/templates/plantilla.xhtml" 
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+    
+    <ui:define name="title">Modificar</ui:define> 
+    <ui:define name="content">
+        <h:form id="modificar">
+            <h:panelGrid columns="1" >
+                <h:outputText value="NIF:"/>
+                <h:inputText id="nif" value="#{registro.usuario.NIF}" required="true"/>
+                <h:message for="nif"/>
+                <h:outputText value="Nombre:"/>
+                <h:inputText id="nombre" value="#{registro.usuario.nombre}" required="true"/>
+                <h:message for="nombre"/>
+                <h:outputText value="Apellidos:"/>
+                <h:inputText id="apellido" value="#{registro.usuario.apellidos}" required="true"/>
+                <h:message for="apellido"/>
+                <h:outputText value="Direccion:"/>
+                <h:inputText id="direccion" value="#{registro.usuario.direccion}" required="true"/>
+                <h:message for="direccion"/>
+                <h:outputText value="Email:"/>
+                <h:inputText id="email" value="#{registro.usuario.email}" required="true"/>
+                <h:message for="email"/>
+                <h:outputText value="Contraseña:"/>
+                <h:inputSecret id="password" value="#{registro.usuario.contrasenia}" required="true"/>
+                <h:message for="password"/>
+          
+                
+                <h:commandButton value="Modificar" action="#{registro.modificarDatosUsuario()}"/>
+                <h:link outcome="datosPersonalesUsuario.xhtml"></h:link>
+            </h:panelGrid>
+            <h:messages/>
+                    
+        </h:form>
+  
+    </ui:define> 
+</ui:composition>

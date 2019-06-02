@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/WEB-INF/templates/plantilla.xhtml" 
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <ui:define name="title">Donacion</ui:define> 
+    <ui:define name="content">
+    <div class="container">
+            <h:form>
+                <h:panelGrid columns="2" cellpadding="5">
+                    
+                     <h:outputLabel value="Cuenta Bancaria Usuario:"/>
+                     <h:inputText id="numero_bancario" value="#{registro.getIng().numCuentaBancaria}" required="true"/>
+                     <h:outputLabel value="Cuenta de ingreso:"/>
+                     <h:selectOneMenu value="#{registro.getIng().numIngreso}" required="true">
+                    <f:selectItem itemLabel="Escuela Para Todos" itemValue="11111111" />
+                    <f:selectItem itemLabel="Casas Populorum" itemValue="22222222" />
+                    <f:selectItem itemLabel="Gastos Asociación" itemValue="33333333" />
+                    </h:selectOneMenu>
+                     <h:outputLabel value="Cantidad:"/>
+                     <h:inputText id="Cantidad" value="#{registro.getIng().cantidad}" required="true"/>
+                     
+                     <h:outputLabel value="Anotaciones: "/>
+                     <h:inputText id="Anotación" value="#{registro.getIng().descripcion}" required="true"/>
+                     
+                     <h:commandButton value="Hacer donación" action="#{registro.registrarDonacion()}"/><br/>
+                 </h:panelGrid>
+                </h:form>
+            </div>
+        </ui:define>
+</ui:composition>
+

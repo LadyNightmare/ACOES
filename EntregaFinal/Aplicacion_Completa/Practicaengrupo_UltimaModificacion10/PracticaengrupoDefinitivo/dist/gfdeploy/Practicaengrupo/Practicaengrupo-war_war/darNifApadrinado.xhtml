@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:body>
+
+                   <div>
+                   <img  src="imagenes/casa.jpg" style="z-index: -100; width: 100%;left:50%"></img>
+
+                    <p style="font: 40px Comic Sans MS, Comic Sans, cursive; z-index: 40; position: absolute; top:75%; left:10%">¡Muchas Gracias!</p>
+                    <p style="font: 40px Comic Sans MS, Comic Sans, cursive; z-index: 40; position: absolute; top:85%; left:10%">El Nif del apadrinado es: </p>
+                    <h:outputLabel value="#{registro.getH().nifApadrinado}"/>
+                     <p><h:link outcome="apadrinar.xhtml" style='position: absolute; 
+                                top:80%; 
+                                left:65%; 
+                                font: 60px Monserrat, sans-serif;
+                                background-color: #0000FF;
+                                color: white;
+                                padding: 20px 30px;
+                                text-align: center;
+                                text-decoration: none;
+                                display: inline-block;'>Volver</h:link></p>
+                </div>
+
+    </h:body>
+</html>
+

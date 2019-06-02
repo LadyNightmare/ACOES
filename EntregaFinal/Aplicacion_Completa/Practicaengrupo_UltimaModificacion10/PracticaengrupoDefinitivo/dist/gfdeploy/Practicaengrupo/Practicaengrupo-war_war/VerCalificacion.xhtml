@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/WEB-INF/templates/plantilla.xhtml" 
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <ui:define name="title">Calificaciones</ui:define> 
+    <ui:define name="content">
+        <div class="container">
+            <h:form>
+                <h:panelGrid columns="2" cellpadding="5">
+                   <h:outputLabel value="Nif: "/>
+                   <h:outputLabel value="#{nino.datosAcademicos.nif_beneficiario}"/>
+                   <h:outputLabel value="Curso: "/>
+                   <h:outputLabel value="#{nino.datosAcademicos.curso}"/>
+                   <h:outputLabel value="Centro: "/>
+                   <h:outputLabel value="#{nino.datosAcademicos.centro}"/>
+                   <h:outputLabel value="Nota media final del curso: "/>
+                   <h:outputLabel value="#{nino.datosAcademicos.nota}"/>
+                   
+                 </h:panelGrid>
+                </h:form>
+        </div>
+        </ui:define>
+</ui:composition>
+

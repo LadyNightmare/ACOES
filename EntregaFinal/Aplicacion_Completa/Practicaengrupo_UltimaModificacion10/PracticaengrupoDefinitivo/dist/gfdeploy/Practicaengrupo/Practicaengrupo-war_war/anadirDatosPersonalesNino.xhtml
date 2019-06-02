@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="/WEB-INF/templates/plantilla.xhtml" 
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <ui:define name="title">Datos Personales</ui:define> 
+    <ui:define name="content">
+    <div class="container">
+            <h:form>
+                <h:panelGrid columns="2" cellpadding="5">
+                    
+                     
+                     <h:outputLabel value="NIF: "/>
+                     <h:inputText id="nif" value="#{registro.beneficiario.nif}" required="true"/>
+                     <h:outputLabel value="Nombre: "/>
+                     <h:inputText id="nombre" value="#{registro.beneficiario.nombre}" required="true"/>
+                     <h:outputLabel value="Apellidos "/>
+                     <h:inputText id="apellido" value="#{registro.beneficiario.apellidos}" required="true"/>
+                     <h:outputLabel value="Sexo: "/>
+                     <h:selectOneMenu id="sexo" value="#{registro.beneficiario.sexo}">
+                        <f:selectItem itemLabel="Masc" itemValue="Masc" />
+                        <f:selectItem itemLabel="Fem" itemValue="Fem" />
+                     </h:selectOneMenu>
+                     <h:outputLabel value="Comunidad de procedencia: "/>
+                     <h:inputText id="comunidadProcedencia" value="#{registro.beneficiario.comunidadProcedencia}"/>
+                     <h:outputLabel value="Comunidad en la que vive: "/>
+                     <h:inputText id="comudidadVive" value="#{registro.beneficiario.comunidadResidencia}"/>
+                     <h:outputLabel value="Cuenta de ingresos: "/>
+                     <h:inputText id="numIngresos" value="#{registro.beneficiario.numIngreso}" required="true"/>
+                     <h:outputLabel value="Grado del curso: "/>
+                     <h:inputText id="grado" value="#{registro.beneficiario.grado}"/>
+                     <h:outputLabel id="estado" value="Estado: "/>
+                     <h:selectOneMenu value="#{registro.beneficiario.estado}">
+                        <f:selectItem itemLabel="Activo" itemValue="Activo" />
+                        <f:selectItem itemLabel="Inactivo" itemValue="Inactivo" />
+                     </h:selectOneMenu>
+                     <h:commandButton value="Crear" action="#{registro.registrarNino()}"/>
+                     
+                 </h:panelGrid>
+                </h:form>
+            </div>
+        </ui:define>
+</ui:composition>
+
+
